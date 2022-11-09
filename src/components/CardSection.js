@@ -5,15 +5,15 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 // Images
-import CVDImage from '../images/CVD.png';
+import CVDImage from '../images/cardiology.png';
 import EndocrineImage from '../images/endocrine.png';
 import GastroImage from '../images/gastro.jpg';
 import InfectiousImage from '../images/infectious.jpg';
-import NeuroImage from '../images/neuro.png';
-import RespImage from '../images/resp.png';
-import RheumImage from '../images/rheum.png';
+import NeuroImage from '../images/neurology-rgb-color-icon-vector.jpg';
+import RespImage from '../images/lungs.png';
+import RheumImage from '../images/bone.jpg';
 
-
+/*Note: the images are not all graphically consistent, so can consider a more consistent design scheme*/
 
 const CardSectionStyles = styled.div`
   padding: 10rem 0;
