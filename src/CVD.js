@@ -18,8 +18,10 @@ function CVD() {
         </div>
 
         <div className="xl:w-2/5 w-full">
-          <p className="text-2xl hover:underline dark:text-blue-300 text-blue-700 text-left cursor-pointer" onClick={() => {window.open('http://www.reynoldsriskscore.org/Default.aspx', "_blank");}}>Reynolds Risk Score</p>
-          <p className='text-md text-left text-white w-full shadow-lg pb-2 text-slate-400'>Calculates CVD risk and incorporates hsCRP.</p>
+          <a href='http://www.reynoldsriskscore.org/Default.aspx'>
+            <p className="text-2xl hover:underline dark:text-blue-300 text-blue-700 text-left cursor-pointer">Reynolds Risk Score</p>
+            <p className='text-md text-left text-white w-full shadow-lg pb-2 text-slate-400'>Calculates CVD risk and incorporates hsCRP.</p>
+          </a>
         </div>
 
         <div className="xl:w-2/5 w-full">
