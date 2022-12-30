@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AccordionSectionChatGPT = ({ title, children }) => {
+const AccordionSection3 = ({ title, children }) => {
   return (
     <div>
       <h3>{title}</h3>
@@ -9,4 +9,4 @@ const AccordionSectionChatGPT = ({ title, children }) => {
   );
 };
 
-export default AccordionSectionChatGPT;
+export default AccordionSection3;

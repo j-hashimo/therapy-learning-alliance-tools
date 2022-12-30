@@ -8,8 +8,9 @@ import { useState } from 'react';
 
 import AccordionComponent from './AccordionApp';
 import Accordion from './Accordion';
-import AccordionChatGPT from './ChatGPTAccordion';
+import Accordion3 from './Accordion3';
 import AccordionMenu from './AccordionMenu';
+import Credits from './Credits';
 
 //Accordion menu reference: https://www.youtube.com/watch?v=bGpZrr32ECw 
 //Better Accordion menu reference: https://www.youtube.com/watch?v=rUC1CR0OYos 
@@ -52,6 +53,7 @@ function Home() {
       <HeaderHome/>
       <h1 className='text-white'>Clinical Tools</h1>
       <AccordionMenu/>
+      <Credits/>
       
       
 
